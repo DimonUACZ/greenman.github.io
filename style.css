@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+* {
+   box-sizing: border-box;
+}
+
+.orig {
+   color: #565656;
+   font-size: larger;
+}
+
+.container {
+   width: 1110px;
+   margin: 0 auto;
+}
+
+.intro {
+   background-image: url(image/Field.jpeg);
+   background-size: cover;
+}
+
+.nav-list {
+   display: flex;
+   font-family: 'Carter One', cursive;
+}
+
+.header {
+   display: flex;
+   padding-top: 30px;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 40px;
+}
+
+.nav-link {
+   font-size: 14px;
+   /* задал размер шрифта */
+   line-height: 16px;
+   /* задал высоту страки */
+   text-decoration: none;
+   /* убрал подчёркивание на ссылках */
+   color: #ffffff;
+   /* задал цвет шрифта */
+   text-transform: uppercase;
+   /* все буквы заглавные */
+}
+
+.nav-item {
+   margin-right: 30px;
+}
+
+.nav-item:last-child {
+   margin: 0;
+}
+
+.login {
+   border: 1px solid #ffffff;
+   /* рамка вокруг текста */
+   border-radius: 6px;
+   /* скругление углов рамки */
+   border-color: rgb(13, 61, 7);
+   /* цвет рамки */
+   margin-left: 70px;
+   line-height: 16px;
+   /* задал высоту страки */
+   text-decoration: none;
+   /* убрал подчёркивание на ссылках */
+   color: #ffffff;
+   /* задал цвет шрифта */
+   text-transform: uppercase;
+   /* все буквы заглавные */
+   padding: 11px 26px 11px 26px;
+   /* отступ вокруг текста (сверху по часовой стрелке) */
+}
+
+.intro-info {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.intro-title {
+   font-size: 70px;
+   font-weight: 700;
+   line-height: 80px;
+   text-transform: uppercase;
+   color: #4f1769;
+   margin-bottom: 50px;
+}
+
+.intro-description {
+   font-weight: 800px;
+   font-size: 25px;
+   line-height: 35px;
+   color: #0b0b0b;
+   margin-bottom: 50px;
+   text-align: center;
+}
+
+.intro-singup {
+   background-color: #ffffff;
+   border: 1px solid #4f1769;
+   border-radius: 6px;
+   padding: 16px 50px 16px 50px;
+   text-transform: uppercase;
+   text-decoration: none;
+}
+
+.title {
+   font-weight: 600;
+   font-size: 36px;
+   line-height: 54px;
+   text-transform: uppercase;
+   text-align: center;
+   margin-bottom: 60px;
+}
+
+.kinds-list {
+   display: flex;
+   justify-content: space-between;
+}
+
+.kinds {
+   padding: 60px 0 100px 0;
+   border-color: rgb(207, 240, 229);
+}
+
+.kinds-cards {
+   width: 350px;
+}
+
+.kinds-images {
+   border: #ff020a;
+   background-repeat: 88px;
+}
+
+.goroh-info {
+   margin: 50px;
+   background-color: #fff;
+   box-shadow: 10px 10px 30px 5px rgba(0, 0, 0, 0.2);
+   border-radius: 8px;
+   text-align: center;
+   margin-left: 28px;
+   margin-right: 28px;
+   padding: 33px 32px 25px 32px;
+   margin-top: -95px;
+   position: relative;
+}
+
+.goroh-title {
+   font-weight: bold;
+   font-size: 20px;
+   line-height: 22px;
+   color: #ba0909;
+   margin-bottom: 22px;
+}
+
+.goroh-description {
+   margin-bottom: 26px;
+}
+
+.goroh-link {
+   text-decoration: none;
+   font-weight: 700;
+   color: #ff020a;
+}
+
+.i-card {
+   width: 255px;
+   padding: 5px 32px 5px 32px;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+
+}
+
+.i-icon {
+   width: 50%;
+   position: relative;
+
+}
+
+.i-number {
+   color: rgba(16, 16, 16, 0.48);
+   font-weight: 700;
+   font-size: 100px;
+   line-height: 120px;
+
+}
+
+.i-list {
+   display: flex;
+   justify-content: space-between;
+}
