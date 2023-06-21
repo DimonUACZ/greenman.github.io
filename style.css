@@ -192,3 +192,22 @@
    display: flex;
    justify-content: space-between;
 }
+
+.footer {
+   background-color: #09a523;
+}
+
+.footer-container {
+   display: flex;
+   justify-content: center;
+   margin-top: 100px;
+
+}
+
+.gm {
+   font-style: 700px;
+}
+
+.footer-container {
+   font-style: 700px;
+}
